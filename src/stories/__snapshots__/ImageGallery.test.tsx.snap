@@ -1,0 +1,48 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ImageGallery > renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      style="margin-bottom: 10px; font-size: 14px; color: rgb(102, 102, 102);"
+    >
+      Viewed: 
+      2
+       / 
+      2
+    </div>
+    <div
+      class="gallery-container"
+    >
+      <div
+        class="gallery-item"
+      >
+        <span
+          class="gallery-title"
+        >
+          Image One
+        </span>
+        <img
+          class="gallery-image viewed"
+          src="https://example.com/1.jpg"
+          style="border-color: green;"
+        />
+      </div>
+      <div
+        class="gallery-item"
+      >
+        <span
+          class="gallery-title"
+        >
+          Image Two
+        </span>
+        <img
+          class="gallery-image viewed"
+          src="https://example.com/2.jpg"
+          style="border-color: green;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
